@@ -1,0 +1,8 @@
+.social-item {
+    color: white;
+    height: 35px;
+}
+
+.social-item:hover {
+    color: grey;
+}

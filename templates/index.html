@@ -1,3 +1,27 @@
 {% extends 'base.html' %}
 {% load static %}
-<div>Hello World</div>
+{% block content %}
+<main role="main" class="container">
+    <div class="mt-3">
+        <div class="container">
+        <h3>About Me</h3>
+        <div class="row">
+            <div class="col-7">
+            I am a highly motivated software engineer with a passion for utilizing technology to improve healthcare.
+            I graduated from The Ohio State University in 2017 with a B.S. in Engineering Physics with a specialization in Computer Science Engineering.
+            For my senior capstone project, I gained valuable experience as a part of a team that designed and built an autonomous sample retrieval robot.
+            <br><br>
+            Since graduation, I have gained extensive experience with a wide range of software projects.
+            My years of experience have allowed me to become comfortable working in agile environments, adapting to evolving project requirements with ease.
+            My passion for software engineering is driven by the desire to solve challenging problems and continuously improve my skills and knowledge.
+            <br><br>
+            My current focus is leveraging the power of cloud computing and AI, with the goal of transforming the broken healthcare system.
+            My adaptability and willingness to take on multiple roles make me a valuable asset to any team.
+            </div>
+            <div class="col-4">
+            <img src="{% static 'img/headshot_2021.jpg' %}" class="img-fluid rounded"/>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
